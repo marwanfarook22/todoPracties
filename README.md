@@ -11,6 +11,7 @@ View TODOs: Display all current TODO items in a numbered list
 Remove TODOs: Delete specific TODO items by index
 Input Validation: Handles empty inputs, duplicates, and invalid selections
 Case-Insensitive Commands: Accepts both uppercase and lowercase menu options
+
 🚀 Getting Started
 Prerequisites
 .NET Framework or .NET Core/5+
@@ -28,6 +29,7 @@ dotnet build
 Run the application:
 bash
 dotnet run
+
 🎮 Usage
 When you start the application, you'll see the main menu:
 
@@ -78,12 +80,14 @@ Invalid menu options: Shows "Incorrect input" message
 Duplicate TODO descriptions: Prevents adding non-unique items
 Invalid indices: Validates removal selections
 Case sensitivity: Accepts both uppercase and lowercase commands
+
 🏗️ Project Structure
 TodoConsoleApp/
 ├── Program.cs          # Main application entry point
 ├── TodoManager.cs      # Core TODO management logic
 ├── README.md          # Project documentation
 └── TodoConsoleApp.csproj # Project configuration
+
 🧪 Example Session
 Hello!
 What do you want to do?
@@ -112,6 +116,7 @@ What do you want to do?
 [R]emove a TODO
 [E]xit
 > e
+
 🤝 Contributing
 This is an educational project, but contributions are welcome! Please feel free to:
 
