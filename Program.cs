@@ -5,7 +5,7 @@ using System.Linq;
 var Todo = new List<string>();
 Console.ForegroundColor = ConsoleColor.DarkBlue;
 Console.WriteLine(" Hello There In Our Todo Project !");
-Console.ForegroundColor = ConsoleColor.White;
+Console.ForegroundColor = ConsoleColor.Cyan;
 bool ExitLoop = true;
 while (ExitLoop)
 {
