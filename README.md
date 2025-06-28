@@ -16,6 +16,7 @@ Case-Insensitive Commands: Accepts both uppercase and lowercase menu options
 Prerequisites
 .NET Framework or .NET Core/5+
 Any C# IDE (Visual Studio, VS Code, Rider, etc.)
+
 Installation
 Clone the repository:
 bash
@@ -29,6 +30,7 @@ dotnet build
 Run the application:
 bash
 dotnet run
+
 
 🎮 Usage
 When you start the application, you'll see the main menu:
